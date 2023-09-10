@@ -5,7 +5,7 @@ This code will allow you to mirror bloxflip api and return the same info.
 
 - **Hosting:** I have made this code so you can host it on any website including ``Replit``.
 
-- **Credits:** To me ofc discord: ``01ex``.
+- **Credits:** To me ofc discord: ``03ex``.
 
 - **10 ⭐** Release User\Mines\Mines History api mirroring src.
 
