@@ -7,7 +7,9 @@ This code will allow you to mirror bloxflip api and return the same info.
 
 - **Credits:** To me ofc discord: ``03ex``.
 
-- **10 ⭐** Release User\Mines\Mines History api mirroring src.
+- <s>**10 ⭐** Release User\Mines\Mines History api mirroring src.</s>
+  - **Released Chat\User\Mines\Mines History api mirroring src even though i didint get 1- stars**
+    
 
 
-**Join for support:** [Discord Server](https://discord.gg/3vupkn3sB4)
+**For Help Dm me on discord**
