@@ -1,5 +1,6 @@
 # Bloxflip api mirror
 This code will allow you to mirror bloxflip api and return the same info.
+**NOTE: THIS IS NOT A HACK AND IT WILL NOT GIVE YOU ANY ADVANTAGE IN BLOXFLIP**
 
 - **Cloudflare Bypass:** This will bypass Bloxflip's cloudflare protection one of the main errors people were getting was ``cloudscraper.exceptions.cloudflarechallengeerror: detected a cloudflare version 2 captcha challenge, this feature is not available in the opensource (free) version.``.
 
