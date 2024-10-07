@@ -1,31 +1,58 @@
-# Bloxflip api mirror
+# Bloxflip API Mirror
 
-> [!CAUTION]
-> This is for the people who gets errors when sending requests to bloxflip's api like the one below. This code is not a hack and will not give you any advantage on bloxflip.
+A Flask-based API mirror that allows you to send requests to Bloxflip's API seamlessly. This project is designed to handle issues like Cloudflare protection, offering a simple way to mirror API requests.It can also be made to mirror any other website API.
+This Project was made after the shutdown of https://rest-bf.blox.land.
 
-- **Cloudflare Bypass:** This will bypass Bloxflip's cloudflare protection one of the main errors people were getting was ``cloudscraper.exceptions.cloudflarechallengeerror: detected a cloudflare version 2 captcha challenge, this feature is not available in the opensource (free) version.``.
+## Features
+
+- **Cloudflare Bypass:** This code was made to handle Bloxflip's Cloudflare protection so users don't face issues like `cloudscraper.exceptions.cloudflarechallengeerror`.
+- **API Mirroring:** Supports all HTTP methods (`GET`, `POST`, `PUT`, `DELETE`) for any Bloxflip API endpoint.
+- **Easy to Extend:** The code is structured to easily add more features or customize routes.
+
 ## Setup
-#### [Download](https://github.com/ex0f/Bloxflip-api-mirror/archive/refs/heads/main.zip) the source code of this repository.
 
-- Edit the file ``main.py``:
-  - Get an api key from Zenrows they offer a free trial [Zenrows](https://www.zenrows.com/)
-  - Put your api key at
-    ```py
-    zenrows_client = ZenRowsClient("YOUR ZENROWS API KEY HERE") # <--- Put the Api key here
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/ex0f/Bloxflip-api-mirror.git
+    cd Bloxflip-api-mirror
     ```
-  - Then just run the code
 
-## Hosting
-#### I have made this code so you can host it on any website including ``Replit``
+2. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-- You can host it on ``Replit`` or You can host it ``Locally`` on your computer
+3. Edit the configuration if needed (e.g., update the `API_URL` if Bloxflip changes their API also you can mirror any API with this code).
 
+4. Run the application:
+    ```bash
+    python main.py
+    ```
+
+    The server will be available at `http://127.0.0.1:5000/`.
+
+## Usage
+
+To mirror any Bloxflip API endpoint, make a request to this server with the corresponding method:
+
+```bash
+For example: GET http://127.0.0.1:5000/games/crash
+```
+
+
+## Hosting Options
+
+You can host this API mirror on:
+
+- **Replit:** Easy to deploy and run online.[Replit](https://replit.com/).
+- **Local Hosting:** Run it locally on your computer or any server that supports Python and Flask.
 
 ## Credits
-- **Credits:** To me ofc my discord is: ``03ex``.
 
-- <s>**10 ⭐** Release User\Mines\Mines History api mirroring src.</s>
-  - **Released Chat\User\Mines\Mines History api mirroring src even though i didint get 10 stars**
-    
-> [!IMPORTANT]
-> Please DONT dm me on discord if you are looking for help setting up this code.
+- **Author:** `Ex` (Discord: `03ex | 1142117482979676261`)
+- **Inspired by:** https://rest-bf.blox.land RIP.
+
+## License
+This project is licensed under the [MIT License](https://mit-license.org/).
+
+> **Note:** This is not a hack or exploit. It simply bypasses Cloudflare protection to allow legitimate API requests and possibly mirror any API.
