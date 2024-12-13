@@ -1,5 +1,8 @@
 # Bloxflip API Mirror
 
+> [!CAUTION]
+> Bloxflip (BFlip) has been shutdown so this code no longer works for that site
+
 A Flask-based API mirror that allows you to send requests to Bloxflip's API seamlessly. This project is designed to handle issues like Cloudflare protection, offering a simple way to mirror API requests.It can also be made to mirror any other website API.
 This Project was made after the shutdown of https://rest-bf.blox.land.
 
